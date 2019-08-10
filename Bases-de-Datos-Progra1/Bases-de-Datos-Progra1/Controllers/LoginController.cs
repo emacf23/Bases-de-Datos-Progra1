@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Bases_de_Datos_Progra1.Models;
 using Microsoft.AspNetCore.Mvc;
-using Bases_de_Datos_Progra1.Models;
-using System.Data.SqlClient;
-using System.Configuration;
+using System.Diagnostics;
 
 namespace Bases_de_Datos_Progra1.Controllers
 {

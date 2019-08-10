@@ -1,5 +1,3 @@
-using System;
-
 namespace Bases_de_Datos_Progra1.Models
 {
     public class ErrorViewModel
