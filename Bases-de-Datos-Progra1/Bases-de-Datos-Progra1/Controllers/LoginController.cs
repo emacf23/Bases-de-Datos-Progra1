@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Bases_de_Datos_Progra1.Models;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Bases_de_Datos_Progra1.Controllers
 {
@@ -20,5 +22,7 @@ namespace Bases_de_Datos_Progra1.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
     }
 }

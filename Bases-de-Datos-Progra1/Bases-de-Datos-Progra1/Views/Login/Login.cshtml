@@ -2,6 +2,25 @@
 @{
     ViewData["Title"] = "Login";
 }
+    <div>
+        <h2>Login</h2>
 
-<h2>Login</h2>
+        <p>Digite sus datos por favor:</p>
+
+
+        Username:<br>
+        <i class="fas fa-user"><input type="text" name="firstname"></i>
+        <br>
+        Password:<br>
+        <i class="fas fa-lock"></i><input type="password" name="lastname">
+        <br><br>
+        <input type="submit" asp-area="" asp-controller="Home" asp-action="Index" />
+
+        <asp:Login ID="Login1" runat="server"
+                   LoginButtonText="Ingresar"
+                   PasswordLabelText="Contraseña:" RememberMeText="Recordarme la proxima vez." TitleText=""
+                   UserNameLabelText="Usuario:">
+        </asp:Login>
+
+    </div>
 
