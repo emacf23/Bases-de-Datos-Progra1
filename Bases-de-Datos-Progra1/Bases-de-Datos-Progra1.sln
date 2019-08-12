@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bases-de-Datos-Progra1", "Bases-de-Datos-Progra1\Bases-de-Datos-Progra1.csproj", "{E10C1916-0ADB-46F1-A8A5-0F657EF26B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bases-de-Datos-Progra1", "Bases-de-Datos-Progra1\Bases-de-Datos-Progra1.csproj", "{E10C1916-0ADB-46F1-A8A5-0F657EF26B9C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabasePrueba", "Bases-de-Datos-Progra1\db\DatabasePrueba\DatabasePrueba.sqlproj", "{DFD35562-6719-4030-9816-0FE66499E55B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{E10C1916-0ADB-46F1-A8A5-0F657EF26B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E10C1916-0ADB-46F1-A8A5-0F657EF26B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E10C1916-0ADB-46F1-A8A5-0F657EF26B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD35562-6719-4030-9816-0FE66499E55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD35562-6719-4030-9816-0FE66499E55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD35562-6719-4030-9816-0FE66499E55B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DFD35562-6719-4030-9816-0FE66499E55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD35562-6719-4030-9816-0FE66499E55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD35562-6719-4030-9816-0FE66499E55B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
