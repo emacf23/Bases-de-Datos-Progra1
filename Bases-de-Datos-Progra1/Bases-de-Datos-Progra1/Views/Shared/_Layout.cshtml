@@ -16,23 +16,26 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
+
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Banco EMGAR</a>
-            </div>
-            <div class="navbar-collapse collapse">
+    <nav style="font-size: 20px;size" class="navbar navbar-inverse navbar-fixed-top">
+        <div>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a style="font-size: 45px; font-family:Roboto; color: white" asp-controller="Home" asp-action="Index" class="navbar-brand">Banco Verdun</a>
+                </div>
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li class="active"><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Transacciones <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Index">Estado de Cuenta</a></li>
+                            <li><a asp-area="" asp-controller="Transactions" asp-action="Beneficiaries">Beneficiarios</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="About">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">IDK </a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Salir?</a></li>
                 </ul>
             </div>
         </div>
@@ -44,7 +47,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2019 - Bases_de_Datos_Progra1</p>
+            <p> &copy; 2019 - Bases_de_Datos_Progra1</p>
         </footer>
     </div>
 

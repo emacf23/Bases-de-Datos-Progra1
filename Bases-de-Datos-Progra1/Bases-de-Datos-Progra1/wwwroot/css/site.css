@@ -22,6 +22,13 @@ body {
 .carousel-inner .item img[src$=".svg"] {
     width: 100%;
 }
+.navbar-default {
+    background-color: blue;
+    border-color:red;
+}
+.nav{
+    color:aliceblue;
+}
 
 /* QR code generator */
 #qrCode {

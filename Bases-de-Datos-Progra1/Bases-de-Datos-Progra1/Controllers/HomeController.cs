@@ -10,7 +10,7 @@ namespace Bases_de_Datos_Progra1.Controllers
         {
             return View();
         }
-
+        
         public IActionResult About()
         {
             ViewData["Message"] = "Inserte la descripcion de la pagina aqui.";
