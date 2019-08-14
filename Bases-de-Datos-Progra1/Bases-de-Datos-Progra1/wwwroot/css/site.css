@@ -23,11 +23,11 @@ body {
     width: 100%;
 }
 .navbar-default {
-    background-color: blue;
+    background-color: pink;
     border-color:red;
 }
 .nav{
-    color:aliceblue;
+    color:pink;
 }
 
 /* QR code generator */
