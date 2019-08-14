@@ -13,5 +13,10 @@ namespace BasesdeDatosProgra1.Models
         string GetName() => name;
 
         string GetDate() => date;
+
+        void SetName(string name)
+        {
+            this.name = name;
+        }
     }
 }
