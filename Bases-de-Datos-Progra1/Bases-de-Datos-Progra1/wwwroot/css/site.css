@@ -29,11 +29,11 @@ body {
 
 .item img[src]
 .navbar-default {
-    background-color: blue;
+    background-color: pink;
     border-color:red;
 }
 .nav{
-    color:aliceblue;
+    color:pink;
 }
 
 /* QR code generator */
