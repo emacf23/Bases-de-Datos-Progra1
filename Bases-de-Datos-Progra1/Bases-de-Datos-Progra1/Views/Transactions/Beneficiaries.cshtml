@@ -1,16 +1,66 @@
 ﻿
 @{
     ViewData["Title"] = "Beneficiarios";
-}
-    <div>
-        <div class="container">
-            <h1>Beneficiarios</h1>
-            <ul>
+} <!-- Page Content -->
+<div class="container">
 
-                <li> <a asp-controller="Transactions" asp-action="AddBeneficiaries">Agregar Beneficiarios</a></li>
-                <li><a asp-controller="Home" asp-action="Index">Actualizar Beneficiarios</a></li>
-                <li><a asp-controller="Home" asp-action="Index">Eliminar Beneficiarios</a></li>
-            </ul>
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+        <h1 class="display-3">A Warm Welcome!</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+        <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
+    </header>
 
+    <!-- Page Features -->
+    <div class="row text-center">
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="http://placehold.it/400x325"  alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Agregar Beneficiario</h4>
+                    <p class="card-text">Sabias que puedes añadir hasta tres beneficiarios a tu cuenta.Otorgandole a cada uno el monton que desees.</p>
+                </div>
+                <div class="card-footer">
+                    <a asp-controller="Transactions" asp-action="AddBeneficiaries" class="btn btn-primary">Agregar Ahora!</a>
+                </div>
+            </div>
         </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="http://placehold.it/400x325" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Actualizar Beneficiarios</h4>
+                    <p class="card-text">Si alguno de tus beneficiarios cambio de telefono, email o simplemente quieres modificar el porcentaje de beneficio. Puedes hacerlo desde aqui. </p>
+                </div>
+                <div class="card-footer">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Actualizar Ahora!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="http://placehold.it/400x325" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Eliminar Beneficiarios</h4>
+                    <p class="card-text">Aqui puedes eliminar a un beneficiario</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Eliminar Beneficiarios</a>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
+    <!-- /.row -->
+
+</div>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

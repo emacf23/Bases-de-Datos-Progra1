@@ -12,6 +12,10 @@ body {
     padding-right: 15px;
 }
 
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
@@ -22,6 +26,8 @@ body {
 .carousel-inner .item img[src$=".svg"] {
     width: 100%;
 }
+
+.item img[src]
 .navbar-default {
     background-color: blue;
     border-color:red;
